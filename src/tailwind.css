@@ -9,3 +9,13 @@
     color:white;
   }
 }
+@responsive{
+  .bg-gradient-brand{
+    background-image:linear-gradient(blue,green);
+  }
+}
+@screen sm{
+  .bg-gradient-brand{
+    background-image:linear-gradient(blue,green);
+  }
+}
