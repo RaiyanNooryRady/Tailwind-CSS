@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities; */
 
-.content-area {
-  height: calc(100vh - theme("spacing.12"));
-  background-color: black;
-  color: white;
+.text-body{
+  color: blue;
+  background-color: red;
+}
+input::placeholder{
+  color: gray;
 }

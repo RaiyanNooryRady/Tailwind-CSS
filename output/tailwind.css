@@ -2,8 +2,15 @@
 @tailwind components;
 @tailwind utilities; */
 
-.content-area {
-  height: calc(100vh - 3rem);
-  background-color: black;
-  color: white;
+.text-body{
+  color: blue;
+  background-color: red;
+}
+
+input::-moz-placeholder{
+  color: gray;
+}
+
+input::placeholder{
+  color: gray;
 }
