@@ -1,4 +1,5 @@
 const colors= require('tailwindcss/colors');
+const defaultTheme= require("tailwindcss/defaultTheme");
 module.exports = {
   mode: "jit",
   purge: ["./public/**/*.{html,js}"],
@@ -14,7 +15,11 @@ module.exports = {
       lg:"1260px",
       '4k':"2000px",
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['Roboto', ...defaultTheme.fontFamily.sans],
+      },
+    },
   },
   variants: {
     extend: {},
