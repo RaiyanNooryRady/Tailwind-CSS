@@ -2,20 +2,8 @@
 @tailwind components;
 @tailwind utilities; */
 
-@variants focus,hover{
-  .rotate-0 {
-    transform: rotate(0deg);
-    background-color:black;
-    color:white;
-  }
-}
-@responsive{
-  .bg-gradient-brand{
-    background-image:linear-gradient(blue,green);
-  }
-}
-@screen sm{
-  .bg-gradient-brand{
-    background-image:linear-gradient(blue,green);
-  }
+.content-area {
+  height: calc(100vh - theme("spacing.12"));
+  background-color: black;
+  color: white;
 }
