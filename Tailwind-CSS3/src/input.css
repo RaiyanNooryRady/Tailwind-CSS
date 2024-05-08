@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .text-body {
+        @apply text-center bg-red-900 w-full text-xl text-lime-50 first-letter:text-4xl first-letter:uppercase first-letter:text-blue-600 selection:text-blue-700 selection:bg-slate-100;
+    }
+}
