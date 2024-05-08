@@ -6,8 +6,11 @@ module.exports = {
   theme: {
     extend: {},
   },
+  variantOrder: ["first", "last", "odd", "even", "visited", "checked", "group-hover", "group-focus", "focus-within", "focus", "hover", "focus-visible", "active", "disabled"],
   variants: {
-    extend: {},
+    extend: {
+      fontSize:['hover','focus'],
+    },
   },
   plugins: [],
 }
